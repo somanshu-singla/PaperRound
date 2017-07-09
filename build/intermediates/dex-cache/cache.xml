@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/4d3c28c5812a07370d79204293c5150a62cf5f3f/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_293f8acab683c5b9f092a19395b5d7f897d59fd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/3c9eca1de694b0b2bbc2169c783c16b3bcf42451/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_27594809c2362ba188241a62c32408f1a987b1a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/picasso-2.5.0_720cd4aef8b001ffa76a98da8db33c7a3d7c9a51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/532455fded1f32d4a688f0bcc5465956b78fa29f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_a6c6adff59fbeda80ce8ececa0b2e58a35d1757d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/280d802a8855b4cef60a63f66f45a42ecc9d4dd2/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f30032f4837d52754620f60bb7b49159447fe2de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/532455fded1f32d4a688f0bcc5465956b78fa29f/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_245cf72f363a1b121fc6680510bb3ca1b3f8d978.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/71d62dab088b4a19a8f3cd92df4ad50a7ebb000e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_3e86b68e28f9ce61d66d213330b1d7781632e300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/and/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_276f949ba6b8752508375e1382db8b9511e6e714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/a77504e0d76f2dcdde0fe273605cf3f1b3bca482/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_0ad412269b5a9fc7ae916027bbba05ea3781ac27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/8734d6a267a59c03000dccdee9c11650c08bbc61/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_7b8da8b27385f2118e7412d399160f4c75d1467b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/280d802a8855b4cef60a63f66f45a42ecc9d4dd2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_95507f5475b2e208d276051b1be272bf20cbeb1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/71d62dab088b4a19a8f3cd92df4ad50a7ebb000e/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_04b8280a0c92f093b5ce0f48f03f76e5a7af8157.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/4d3c28c5812a07370d79204293c5150a62cf5f3f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_e9f0301e38df703f71a6225d54e573b3ba398ccb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/33c40df1be8e8f56e53708706b85fa786fb2ca0c/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7a90cc9daa76d1b084fb888497c03cd237bf3214.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/33c40df1be8e8f56e53708706b85fa786fb2ca0c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_d808ab8414cba71848ba680ebd1d892133b2c460.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/pre-dexed/debug/classes_bab98cb61c167b81b328fab4c54e788b06b98d32.jar" />
+    </item>
+
+</items>

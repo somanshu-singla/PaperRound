@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.somanshu.paperround"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.somanshu.paperround.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.somanshu.paperround.SportActivity"
+            android:label="News" />
+        <activity
+            android:name="com.example.somanshu.paperround.EntActivity"
+            android:label="Entertainment News" />
+        <activity
+            android:name="com.example.somanshu.paperround.BusinessActivity"
+            android:label="Business News" />
+        <activity
+            android:name="com.example.somanshu.paperround.TechActivity"
+            android:label="Technology News" />
+        <activity
+            android:name="com.example.somanshu.paperround.NatureActivity"
+            android:label="Nature News" />
+        <activity android:name="com.example.somanshu.paperround.NewsDetails" />
+        <activity android:name="com.example.somanshu.paperround.NewsDetailsActivity" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.example.somanshu.paperround.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
