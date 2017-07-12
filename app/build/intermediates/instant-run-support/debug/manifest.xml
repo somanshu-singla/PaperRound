@@ -40,6 +40,7 @@
             android:label="Nature News" />
         <activity android:name="com.example.somanshu.paperround.NewsDetails" />
         <activity android:name="com.example.somanshu.paperround.NewsDetailsActivity" />
+        <activity android:name="com.example.somanshu.paperround.NewsActivity" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

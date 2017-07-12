@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 
 import static com.example.somanshu.paperround.R.id.sport;
 
@@ -16,66 +16,58 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final int num=0;
-        //SportActivity Implicit Intent
-        LinearLayout sport=(LinearLayout)findViewById(R.id.sport);
-        sport.setOnClickListener(new View.OnClickListener() {
+        ImageView sports=(ImageView) findViewById(R.id.sport);
+        sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sport=new Intent(MainActivity.this,SportActivity.class);
-                News news=new News();
-                news.setId(1);
-                Log.e("FOOL",""+news.getId());
-                sport.putExtra("num",news);
-                startActivity(sport);
+                Intent news=new Intent(MainActivity.this,NewsActivity.class);
+                Log.e("MainActivity","Index called - 1");
+                news.putExtra("num",1);
+                startActivity(news);
             }
         });
-        //BusinessActivity Explicit Intent
-        LinearLayout business=(LinearLayout)findViewById(R.id.business);
+        //Business News
+        ImageView business=(ImageView)findViewById(R.id.business);
         business.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sport=new Intent(MainActivity.this,SportActivity.class);
-                News news=new News();
-                news.setId(2);
-                sport.putExtra("num",news);
-                startActivity(sport);
+                Intent news=new Intent(MainActivity.this,NewsActivity.class);
+                Log.e("MainActivity","Index called - 2");
+                news.putExtra("num",2);
+                startActivity(news);
             }
         });
-        //EntertainmentActivity Intent
-        LinearLayout ent=(LinearLayout)findViewById(R.id.ent);
+        //Entertainment News
+        ImageView ent=(ImageView)findViewById(R.id.ent);
         ent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sport=new Intent(MainActivity.this,SportActivity.class);
-                News news=new News();
-                news.setId(3);
-                sport.putExtra("num",news);
-                startActivity(sport);
+                Intent news=new Intent(MainActivity.this,NewsActivity.class);
+                Log.e("MainActivity","Index called - 3");
+                news.putExtra("num",3);
+                startActivity(news);
             }
         });
-        //TechnologyActivity Intent
-        LinearLayout tech=(LinearLayout)findViewById(R.id.tech);
+        //Technology News
+        ImageView tech=(ImageView)findViewById(R.id.tech);
         tech.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sport=new Intent(MainActivity.this,SportActivity.class);
-                News news=new News();
-                news.setId(4);
-                sport.putExtra("num",news);
-                startActivity(sport);
+                Intent news=new Intent(MainActivity.this,NewsActivity.class);
+                Log.e("MainActivity","Index called - 4");
+                news.putExtra("num",4);
+                startActivity(news);
             }
         });
-        //NatureActivity Intent
-        LinearLayout nature=(LinearLayout)findViewById(R.id.nature);
+        //Nature News
+        ImageView nature=(ImageView)findViewById(R.id.nature);
         nature.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sport=new Intent(MainActivity.this,SportActivity.class);
-                News news=new News();
-                news.setId(5);
-                sport.putExtra("num",news);
-                startActivity(sport);
+                Intent news=new Intent(MainActivity.this,NewsActivity.class);
+                Log.e("MainActivity","Index called - 5");
+                news.putExtra("num",5);
+                startActivity(news);
             }
         });
     }

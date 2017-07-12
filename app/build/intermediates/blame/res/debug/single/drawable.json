@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/nature1.png",
+        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/drawable/nature1.png"
+    },
+    {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
@@ -52,6 +56,10 @@
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
+        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/ent1.jpg",
+        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/drawable/ent1.jpg"
+    },
+    {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -70,6 +78,10 @@
     {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/business2.jpg",
+        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/drawable/business2.jpg"
     },
     {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
@@ -104,8 +116,16 @@
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
+        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/business1.jpg",
+        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/drawable/business1.jpg"
+    },
+    {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/sportsview.jpg",
+        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/drawable/sportsview.jpg"
     },
     {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
@@ -130,6 +150,10 @@
     {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/nt.jpg",
         "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/drawable/nt.jpg"
+    },
+    {
+        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/technology.jpg",
+        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/drawable/technology.jpg"
     },
     {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",

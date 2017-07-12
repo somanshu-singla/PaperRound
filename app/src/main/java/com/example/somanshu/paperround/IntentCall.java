@@ -8,5 +8,4 @@ import android.widget.ImageView;
 
 public interface IntentCall {
     public void call(News news);
-    public void setImage(String str, ImageView iv);
 }

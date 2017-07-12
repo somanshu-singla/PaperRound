@@ -32,10 +32,6 @@
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/layout/activity_sport.xml",
-        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/layout/activity_sport.xml"
-    },
-    {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/layout/abc_action_bar_title_item.xml"
     },
@@ -86,6 +82,10 @@
     {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/layout/activity_news.xml",
+        "source": "/home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/res/layout/activity_news.xml"
     },
     {
         "merged": "/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",

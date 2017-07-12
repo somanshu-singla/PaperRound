@@ -6,23 +6,26 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1499443914456"
+    timestamp="1499858478071"
     token="5327391410932724657"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="157" />
+        duration="1781" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="36" />
+        duration="216" />
     <task
         name="verifier"
         duration="1" />
 
+    <artifact
+        location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
     <artifact
         location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
@@ -32,11 +35,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1499443754739"
+        timestamp="1499856741443"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
@@ -65,6 +65,9 @@
             location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
@@ -73,8 +76,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499443914456"
+        timestamp="1499858478071"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
         <artifact
             location="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />

@@ -33,7 +33,8 @@
             android:name=".NatureActivity"
             android:label="Nature News" />
         <activity android:name=".NewsDetails" />
-        <activity android:name=".NewsDetailsActivity"></activity>
+        <activity android:name=".NewsDetailsActivity" />
+        <activity android:name=".NewsActivity"></activity>
     </application>
 
 </manifest>
