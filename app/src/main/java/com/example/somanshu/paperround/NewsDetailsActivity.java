@@ -5,13 +5,11 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import org.w3c.dom.Text;
 
 public class NewsDetailsActivity extends AppCompatActivity {
 
@@ -20,7 +18,7 @@ public class NewsDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news_details);
         Intent it=getIntent();
-        News news=it.getExtras().getParcelable("var");
+        News news=it.getExtras().getParcelable("news");
         Picasso.with(this).load(news.getImgurl()).into((ImageView)findViewById(R.id.newsimage));
         ((TextView)findViewById(R.id.newstitle)).setText(news.getTitle());
         ((TextView)findViewById(R.id.author)).setText("Author : "+news.getAuthor());
@@ -39,9 +37,9 @@ public class NewsDetailsActivity extends AppCompatActivity {
         ((TextView)findViewById(R.id.web)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(link));
-                startActivity(i);
+                Intent it = new Intent(Intent.ACTION_VIEW);
+                it.setData(Uri.parse(link));
+                startActivity(it);
             }
         });
     }

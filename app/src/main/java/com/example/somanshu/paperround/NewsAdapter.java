@@ -1,6 +1,7 @@
 package com.example.somanshu.paperround;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -19,11 +20,9 @@ import java.util.ArrayList;
  */
 
 public class NewsAdapter extends ArrayAdapter<News> {
-    private IntentCall callintent;
     private Context context;
-    public NewsAdapter(Context context, ArrayList<News> newsArrayList,IntentCall var) {
+    public NewsAdapter(Context context, ArrayList<News> newsArrayList) {
         super(context, 0, newsArrayList);
-        this.callintent=var;
         this.context=context;
     }
 
@@ -34,16 +33,18 @@ public class NewsAdapter extends ArrayAdapter<News> {
         {
             convertView= LayoutInflater.from(getContext()).inflate(R.layout.news_list_item,parent,false);
         }
-        final News var=getItem(position);
-        TextView tv=(TextView)convertView.findViewById(R.id.newstitle);
+        final News news=getItem(position);
+        TextView title=(TextView)convertView.findViewById(R.id.newstitle);
         ImageView iv=(ImageView)convertView.findViewById(R.id.newimg);
-        tv.setText(var.getTitle());
-        Picasso.with(context).load(var.getImgurl()).into(iv);
-        Log.e("Image downloaded","Placed");
+        title.setText(news.getTitle());
+        Picasso.with(context).load(news.getImgurl()).into(iv);
+        Log.e("Adapter Class","Image downloaded");
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    callintent.call(var);
+                Intent it=new Intent(context,NewsDetailsActivity.class);
+                it.putExtra("news",news);
+                context.startActivity(it);
             }
         });
         return convertView ;

@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="95fcd2c45a78af63176448f827d336f8b74eba1e">
+        sha1="6630102f3205728e133751f4cf5dc03d9769886d">
         <dex dex="/home/somanshu/AndroidStudioProjects/PaperRound/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e74f8552d31bb010177526850ef93545601ed389/classes.dex" />
     </item>
     <item

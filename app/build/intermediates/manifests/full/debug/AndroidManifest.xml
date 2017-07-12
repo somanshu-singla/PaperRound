@@ -23,22 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.somanshu.paperround.SportActivity"
-            android:label="News" />
-        <activity
-            android:name="com.example.somanshu.paperround.EntActivity"
-            android:label="Entertainment News" />
-        <activity
-            android:name="com.example.somanshu.paperround.BusinessActivity"
-            android:label="Business News" />
-        <activity
-            android:name="com.example.somanshu.paperround.TechActivity"
-            android:label="Technology News" />
-        <activity
-            android:name="com.example.somanshu.paperround.NatureActivity"
-            android:label="Nature News" />
-        <activity android:name="com.example.somanshu.paperround.NewsDetails" />
         <activity android:name="com.example.somanshu.paperround.NewsDetailsActivity" />
         <activity android:name="com.example.somanshu.paperround.NewsActivity" />
     </application>

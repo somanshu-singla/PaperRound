@@ -17,22 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SportActivity"
-            android:label="News" />
-        <activity
-            android:name=".EntActivity"
-            android:label="Entertainment News" />
-        <activity
-            android:name=".BusinessActivity"
-            android:label="Business News" />
-        <activity
-            android:name=".TechActivity"
-            android:label="Technology News" />
-        <activity
-            android:name=".NatureActivity"
-            android:label="Nature News" />
-        <activity android:name=".NewsDetails" />
         <activity android:name=".NewsDetailsActivity" />
         <activity android:name=".NewsActivity"></activity>
     </application>

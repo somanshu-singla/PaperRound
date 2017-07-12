@@ -2,6 +2,7 @@ package com.example.somanshu.paperround;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,48 +20,23 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-
-public class NewsActivity extends AppCompatActivity implements IntentCall {
+public class NewsActivity extends AppCompatActivity  {
     ArrayList<News>news;
     NewsAdapter adap;
-    String[] apilinks=new String[6];
-    String[] actionbar=new String[6];
-    String select ;
     @Override
     //Executed first when this activity starts
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
-        apilinks[1]="https://newsapi.org/v1/articles?source=talksport&sortBy=top&apiKey=fcfc12e0cf8a4bef8bdf786b549c73e8&sortBy=latest";
-        apilinks[2]="https://newsapi.org/v1/articles?source=bloomberg&sortBy=top&apiKey=fcfc12e0cf8a4bef8bdf786b549c73e8&sortBy=latest";
-        apilinks[3]="https://newsapi.org/v1/articles?source=daily-mail&sortBy=top&apiKey=fcfc12e0cf8a4bef8bdf786b549c73e8&sortBy=latest";
-        apilinks[4]="https://newsapi.org/v1/articles?source=gruenderszene&sortBy=top&apiKey=fcfc12e0cf8a4bef8bdf786b549c73e8&sortBy=latest";
-        apilinks[5]="https://newsapi.org/v1/articles?source=national-geographic&sortBy=top&apiKey=fcfc12e0cf8a4bef8bdf786b549c73e8&sortBy=latest";
-        actionbar[1]="Sports News";
-        actionbar[2]="Business News";
-        actionbar[3]="Entertainment News";
-        actionbar[4]="Technology News";
-        actionbar[5]="Nature News";
         int num=getIntent().getIntExtra("num",0);
         Log.e("NUM",""+num);
-        setTitle(actionbar[num]);
-        select=apilinks[num];
-        //initializes the array
+        setTitle(API.getTitle(num));
+        Log.e("URL ",API.getnewsurl(num));
+        String url =API.getnewsurl(num);
         news=new ArrayList<News>();
-        //Starts another thread which makes HTTPRerquest and fetch news data
-        QueryUtils queryUtils=new QueryUtils(this);
-        queryUtils.execute(select);
-    }
-    //creates and returns news adapter
-    public NewsAdapter getadapter()
-    {
-        return new NewsAdapter(this,news,this);
-    }
-    public void call(News news)
-    {
-        Intent it=new Intent(NewsActivity.this,NewsDetailsActivity.class);
-        it.putExtra("var",news);
-        startActivity(it);
+        QueryUtils queryUtils = new QueryUtils(this);
+        queryUtils.execute(url);
+
     }
     private class QueryUtils extends AsyncTask<String,Void,String> {
         ProgressDialog progressDialog;
@@ -85,7 +61,7 @@ public class NewsActivity extends AppCompatActivity implements IntentCall {
             InputStream stream=null;
             BufferedReader reader=null;
             URL url;
-            StringBuffer json;
+            StringBuffer stringBuffer;
             try
             {
                 url=new URL(link);
@@ -99,12 +75,12 @@ public class NewsActivity extends AppCompatActivity implements IntentCall {
                 }
                 reader=new BufferedReader(new InputStreamReader(stream));
                 String line;
-                json=new StringBuffer();
+                stringBuffer=new StringBuffer();
                 while((line=reader.readLine())!=null)
                 {
-                    json.append(line);
+                    stringBuffer.append(line);
                 }
-                return json.toString();
+                return stringBuffer.toString();
             }
             catch (Exception e)
             {
@@ -133,7 +109,7 @@ public class NewsActivity extends AppCompatActivity implements IntentCall {
         protected void onPostExecute(String jsonstring) {
             if(jsonstring==null||jsonstring=="")
             {
-                Toast.makeText(mContext,"Internet Error",Toast.LENGTH_SHORT);
+                Toast.makeText(mContext,"No Internet Connection",Toast.LENGTH_LONG).show();
                 progressDialog.dismiss();
             }
             else
@@ -149,11 +125,10 @@ public class NewsActivity extends AppCompatActivity implements IntentCall {
                 }
                 catch (Exception e)
                 {
-                    Toast.makeText(mContext,"Internet Error",Toast.LENGTH_SHORT);
                     progressDialog.dismiss();
                 }
                 ListView rootView=(ListView)findViewById(R.id.sportview);
-                adap=getadapter();
+                adap=new NewsAdapter(mContext,news);
                 rootView.setAdapter(adap);
                 progressDialog.dismiss();
             }

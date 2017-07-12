@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidM
 	android:name
 		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:7:5-38:19
+ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:7:5-22:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /home/somanshu/.android/build-cache/8734d6a267a59c03000dccdee9c11650c08bbc61/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] /home/somanshu/.android/build-cache/532455fded1f32d4a688f0bcc5465956b78fa29f/output/AndroidManifest.xml:25:5-20
@@ -53,48 +53,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:17:27-74
-activity#com.example.somanshu.paperround.SportActivity
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:20:9-22:36
-	android:label
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:22:13-33
-	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:21:13-42
-activity#com.example.somanshu.paperround.EntActivity
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:23:9-25:50
-	android:label
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:25:13-47
-	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:24:13-40
-activity#com.example.somanshu.paperround.BusinessActivity
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:26:9-28:45
-	android:label
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:28:13-42
-	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:27:13-45
-activity#com.example.somanshu.paperround.TechActivity
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:29:9-31:47
-	android:label
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:31:13-44
-	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:30:13-41
-activity#com.example.somanshu.paperround.NatureActivity
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:32:9-34:43
-	android:label
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:34:13-40
-	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:33:13-43
-activity#com.example.somanshu.paperround.NewsDetails
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:35:9-49
-	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:35:19-46
 activity#com.example.somanshu.paperround.NewsDetailsActivity
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:36:9-57
+ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:20:9-57
 	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:36:19-54
+		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:20:19-54
 activity#com.example.somanshu.paperround.NewsActivity
-ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:37:9-59
+ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:21:9-59
 	android:name
-		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:37:19-47
+		ADDED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml:21:19-47
 uses-sdk
 INJECTED from /home/somanshu/AndroidStudioProjects/PaperRound/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/somanshu/.android/build-cache/5b057380af3c4eecd7f4816e1f4a7091feb607e1/output/AndroidManifest.xml:21:5-23:78
