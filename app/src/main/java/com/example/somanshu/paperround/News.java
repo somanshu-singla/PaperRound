@@ -43,8 +43,11 @@ public class News implements Parcelable {
         return pdate ;
     }
     public int getId(){return id;}
-    public void setId(int num){id=num;
-        Log.e("hihi",""+num);}
+    public void setId(int num)
+    {
+        id=num;
+        Log.e("News Id",""+num);
+    }
     public News()
     {
 
